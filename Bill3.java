@@ -7,6 +7,6 @@ public class Bill3 {
 		double amount = Double.parseDouble(args[3])/3;
 		double ceiling = Math.ceil(amount);
 		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + 
-		": pay " + ceiling + "  Shekels each.");
+		": pay " + ceiling + " Shekels each.");
 	}
 }

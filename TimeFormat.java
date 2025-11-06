@@ -17,10 +17,10 @@ public class TimeFormat {
 				}
 				System.out.print(minutes);
 				if (t == true) {
-					System.out.println(" AM.");
+					System.out.println(" AM");
 				}
 					else {
-						System.out.println(" PM.");
+						System.out.println(" PM");
 
 					}
  }
