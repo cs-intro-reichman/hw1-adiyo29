@@ -16,6 +16,11 @@ public class TimeFormat {
 					System.out.print("0");
 				}
 				System.out.print(minutes);
+
+				if (hours == 12){
+					t = false;
+				}
+			
 				if (t == true) {
 					System.out.println(" AM");
 				}
